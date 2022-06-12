@@ -2,7 +2,7 @@
 
 <br>
 
-✔️ For live project please click [here]('https://react-weather-app-rho-sage.vercel.app/')
+✔️ For live project please click [**here**](https://react-weather-app-rho-sage.vercel.app/)
 
 <br>
 
