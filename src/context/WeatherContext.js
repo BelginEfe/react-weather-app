@@ -45,7 +45,7 @@ const WeatherContextProvider = ({children}) => {
                 console.log(lat, lon)
             })
             .catch((err) => {
-                console.error(err)
+                dispatch({type: 'WRONG_CITY_NAME'})
             })
         }
     }

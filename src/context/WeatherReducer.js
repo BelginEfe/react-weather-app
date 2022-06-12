@@ -17,6 +17,11 @@ export const WeatherReducer = (state, action) => {
                 ...state,
                 weather: action.payload,
             }
+        case 'WRONG_CITY_NAME' :
+            return {
+                ...state,
+                weather : []
+            }
         default:
             return state;
     }
