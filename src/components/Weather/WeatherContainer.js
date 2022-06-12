@@ -46,7 +46,9 @@ const WeatherContainer = () => {
           </div>
         </>
       )
-  } return <h2>{`Opps! No city named ${city} found 😔`}</h2>
+  } else if (!data.length && city !== '') {
+    return <h2>{`Opps! No city named ${city} found 😔`}</h2>
+  }
 };
 
 export default WeatherContainer;
